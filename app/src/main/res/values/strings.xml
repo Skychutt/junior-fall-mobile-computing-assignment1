@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Email</string>
+    <string name="title_compose">Compose Email</string>
+    <string name="title_read">Read Email</string>
+    <string name="compose_heading">Compose Email</string>
+    <string name="compose_subtitle">Fill in the message, then preview it before sending.</string>
+    <string name="read_heading">Read Email</string>
+    <string name="read_subtitle">This is a read-only preview. Bcc is hidden here.</string>
+
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="label_cc">Cc</string>
+    <string name="label_bcc">Bcc</string>
+    <string name="label_subject">Subject</string>
+    <string name="label_body">Email body</string>
+
+    <string name="hint_from">you@example.com</string>
+    <string name="hint_to">recipient@example.com</string>
+    <string name="hint_cc">optional, separate multiple addresses with commas</string>
+    <string name="hint_bcc">optional, hidden on the preview screen</string>
+    <string name="hint_subject">Subject</string>
+    <string name="hint_body">Write your email</string>
+
+    <string name="button_clear">Clear</string>
+    <string name="button_preview">Preview</string>
+    <string name="button_edit_email">Edit Email</string>
+    <string name="button_send_email">Send Email</string>
+    <string name="developed_by">Developed by Your Name</string>
+    <string name="empty_value">—</string>
+    <string name="chooser_send_email">Send email</string>
+    <string name="error_missing_recipient">Enter a recipient in the To field before sending.</string>
+    <string name="error_no_email_client">No email client is installed.</string>
+</resources>
