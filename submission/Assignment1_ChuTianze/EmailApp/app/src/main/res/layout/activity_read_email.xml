@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/read_heading"
+                android:textColor="@color/primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/read_subtitle"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                style="@style/EmailLabel"
+                android:text="@string/label_from" />
+
+            <TextView
+                android:id="@+id/textFrom"
+                style="@style/EmailReadOnly" />
+
+            <TextView
+                style="@style/EmailLabel"
+                android:text="@string/label_to" />
+
+            <TextView
+                android:id="@+id/textTo"
+                style="@style/EmailReadOnly" />
+
+            <TextView
+                style="@style/EmailLabel"
+                android:text="@string/label_cc" />
+
+            <TextView
+                android:id="@+id/textCc"
+                style="@style/EmailReadOnly" />
+
+            <TextView
+                style="@style/EmailLabel"
+                android:text="@string/label_subject" />
+
+            <TextView
+                android:id="@+id/textSubject"
+                style="@style/EmailReadOnly" />
+
+            <TextView
+                style="@style/EmailLabel"
+                android:text="@string/label_body" />
+
+            <TextView
+                android:id="@+id/textBody"
+                style="@style/EmailReadOnly"
+                android:minLines="6" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/buttonEditEmail"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="@string/button_edit_email" />
+
+        <Button
+            android:id="@+id/buttonSendEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/button_send_email" />
+    </LinearLayout>
+</LinearLayout>

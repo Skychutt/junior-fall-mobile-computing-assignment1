@@ -17,8 +17,8 @@
 
     <string name="hint_from">you@example.com</string>
     <string name="hint_to">recipient@example.com</string>
-    <string name="hint_cc">optional, separate multiple addresses with commas</string>
-    <string name="hint_bcc">optional, hidden on the preview screen</string>
+    <string name="hint_cc">Optional: separate with commas</string>
+    <string name="hint_bcc">Optional: separate with commas</string>
     <string name="hint_subject">Subject</string>
     <string name="hint_body">Write your email</string>
 
@@ -26,7 +26,8 @@
     <string name="button_preview">Preview</string>
     <string name="button_edit_email">Edit Email</string>
     <string name="button_send_email">Send Email</string>
-    <string name="developed_by">Developed by Your Name</string>
+    <string name="developed_by">Developed by Chu Tianze</string>
+    <string name="signature_description">Handwritten signature of Chu Tianze</string>
     <string name="empty_value">—</string>
     <string name="chooser_send_email">Send email</string>
     <string name="error_missing_recipient">Enter a recipient in the To field before sending.</string>
